@@ -14,7 +14,7 @@
 
 ## Notes
 > [!WARNING]  
->if you think you have made a mistake or something isn't working as intended, reach us in the [Telegram chat](https://t.me/woahelperchat), We will try to help you with everything we can do.
+>if you think you have made a mistake or something isn't working as intended, reach us in the [Telegram chat](https://t.me/mainlineonvayu), We will try to help you with everything we can do.
 
 > In this guide we will build our distro from scratch, Maybe in the future ready to flash images will be made, But I didnt manage to make one nor my internet supports uploading such file.
 
