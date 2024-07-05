@@ -13,7 +13,7 @@
 - An already partitioned device, If you dont know what partitions do you need; Follow [this guide](/guides/partitioning.md)
 
 ## Notes
-[!WARNING]  
+>[!WARNING]  
 >if you think you have made a mistake or something isn't working as intended, reach us in the [Telegram chat](https://t.me/woahelperchat), We will try to help you with everything we can do.
 >
 >In this guide we will build our distro from scratch, Maybe in the future ready to flash images will be made, But I didnt manage to make one nor my internet supports uploading such file.
@@ -116,7 +116,7 @@ During this command it may ask you some questions, Answer all of them with "y"
 ```sh
 apt update && apt upgrade -y && unminimize 
 ```
-[!WARNING]
+>[!WARNING]
 >If you are planning to use grub, Remove u-boot-tools- from the command bellow!!! It breaks grub installation!!!
 
 Install general packages
