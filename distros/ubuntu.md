@@ -197,7 +197,7 @@ PARTLABEL=logfs /boot/simpleinit vfat umask=0077 0 1" | sudo tee /etc/fstab
 ### Install firmware
 All you need to know is that firmware is the stuff needed to get WiFi, GPU, Bluetooth, Touchscreen, Audio, Fingerprint, Cameras, LTE and calls working, That doesn't mean that they are enough on thier own; They need a driver that loads them into the device and manages them.
 
-Anyways with that being said grab the latest firmware from [here](#), We will assume that the firmware.tar.gz is in /storage/emulated/0/Download or in download folder in internal storage 
+Anyways with that being said grab the latest firmware from [here](https://github.com/gixousiyq/POCO-X3-Pro-Mainline-Guides/releases/tag/firmware), We will assume that the firmware.tar.gz is in /storage/emulated/0/Download or in download folder in internal storage 
 
 Run this command 
 ```
@@ -227,9 +227,13 @@ Grab:
 
 - dtb-tianma-6.10.0-rc5+ ```If you are Tianma panel```
 
+From [this link](https://github.com/gixousiyq/POCO-X3-Pro-Mainline-Guides/releases/tag/kernel)
+
+And grab 
+
 - modules.tar.gz
 
-From [this link](#)
+from [this link](https://github.com/gixousiyq/POCO-X3-Pro-Mainline-Guides/releases/tag/modules)
 
 Once again we will assume they are in /storage/emulated/0/Download
 
