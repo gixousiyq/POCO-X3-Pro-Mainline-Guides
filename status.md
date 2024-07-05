@@ -13,8 +13,8 @@ Current mainline kernel version is 6.10.0-rc5
 - [x] USB
 - [x] GPU ```[1]```
 - [x] WiFi ```[1]```
-- [ ] Touchscreen ```[4]```
-- [ ] Bluetooth ```[4]```
+- [ ] Touchscreen ```[5]```
+- [ ] Bluetooth ```[5]```
 - [ ] Battery Percentage ```[3]```
 - [ ] Brightness control ```[2]```
 - [x] Sdcard ```Should be working, Untested```
@@ -50,7 +50,7 @@ Current mainline kernel version is 6.10.0-rc5
 
 [4]: Needs firmware + Not decleared in device tree yet
 
-[4]: Needs firmware + driver is broken
+[5]: Needs firmware + driver is broken
 
 [6]: Needs firmware + Not decleared yet in device tree + No driver yet
 
@@ -60,6 +60,6 @@ Current mainline kernel version is 6.10.0-rc5
 - Bluetooth is decleared and theres a button to enable it in the system, But the driver stall's when trying to power on.
 
 ## Notes
-- If you see the log on the boot or shutdown being stock for a long time, Simply force shutdown 
+- If you see the log on the boot or shutdown being stock for a long time, Simply force reboot by long pressing the power button 
 - The brightness on Mainline is the same as the last brightness set on android.
 - USB Host works flawlessly and it switches automatically 
