@@ -19,7 +19,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [FAQ](#)
 
-## Misc. Usefull stuff
+## Misc. useful stuff
 
 - [Mounting Mainline in android](#)
 
