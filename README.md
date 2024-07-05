@@ -13,7 +13,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Partitioning](guides/partitioning.md)
 
-- [Distributions Guides](#)
+- [Distributions Guides](distros/distroSelection.md)
 
 - [Project Status](#)
 
