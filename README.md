@@ -15,7 +15,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Distributions Guides](distros/distroSelection.md)
 
-- [Project Status](#)
+- [Project Status](/status.md)
 
 - [FAQ](#)
 
