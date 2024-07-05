@@ -74,15 +74,8 @@ su -c mkdir /data/local/ubuntu
 ```
 
 Now we will download the script that will lets us enter chroot
-
-If you are using Magisk run this
 ```sh
-wget https://github.com/gixousiyq/POCO-X3-Pro-Mainline-Guides/releases/download/chroot-scripts/ch-magisk -O ../usr/bin/ch && chmod +x ../usr/bin/ch
-```
-
-If you are using KernelSU run this
-```sh
-wget https://github.com/gixousiyq/POCO-X3-Pro-Mainline-Guides/releases/download/chroot-scripts/ch-ksu -O ../usr/bin/ch && chmod +x ../usr/bin/ch
+wget https://github.com/gixousiyq/POCO-X3-Pro-Mainline-Guides/releases/download/chroot-scripts/ch -O ../usr/bin/ch && chmod +x ../usr/bin/ch
 ```
 
 And now run this anywhere in termux
