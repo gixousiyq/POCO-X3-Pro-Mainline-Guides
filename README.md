@@ -11,7 +11,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 ## Getting started
 
-- [Partitioning](#)
+- [Partitioning](guides/partitioning.md)
 
 - [Distributions Guides](#)
 
