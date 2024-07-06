@@ -14,7 +14,7 @@
 
 ## Notes
 > [!WARNING]  
->if you think you have made a mistake or something isn't working as intended, reach us in the [Telegram chat](https://t.me/woahelperchat), We will try to help you with everything we can do.
+>if you think you have made a mistake or something isn't working as intended, reach us in the [Telegram chat](https://t.me/mainlineonvayu), We will try to help you with everything we can do.
 
 > In this guide we will build our distro from scratch, Maybe in the future ready to flash images will be made, But I didnt manage to make one nor my internet supports uploading such file.
 
@@ -74,15 +74,8 @@ su -c mkdir /data/local/ubuntu
 ```
 
 Now we will download the script that will lets us enter chroot
-
-If you are using Magisk run this
 ```sh
-wget https://github.com/gixousiyq/POCO-X3-Pro-Mainline-Guides/releases/download/chroot-scripts/ch-magisk -O ../usr/bin/ch && chmod +x ../usr/bin/ch
-```
-
-If you are using KernelSU run this
-```sh
-wget https://github.com/gixousiyq/POCO-X3-Pro-Mainline-Guides/releases/download/chroot-scripts/ch-ksu -O ../usr/bin/ch && chmod +x ../usr/bin/ch
+wget https://github.com/gixousiyq/POCO-X3-Pro-Mainline-Guides/releases/download/chroot-scripts/ch -O ../usr/bin/ch && chmod +x ../usr/bin/ch
 ```
 
 And now run this anywhere in termux
@@ -204,7 +197,7 @@ PARTLABEL=logfs /boot/simpleinit vfat umask=0077 0 1" | sudo tee /etc/fstab
 ### Install firmware
 All you need to know is that firmware is the stuff needed to get WiFi, GPU, Bluetooth, Touchscreen, Audio, Fingerprint, Cameras, LTE and calls working, That doesn't mean that they are enough on thier own; They need a driver that loads them into the device and manages them.
 
-Anyways with that being said grab the latest firmware from [here](#), We will assume that the firmware.tar.gz is in /storage/emulated/0/Download or in download folder in internal storage 
+Anyways with that being said grab the latest firmware from [here](https://github.com/gixousiyq/POCO-X3-Pro-Mainline-Guides/releases/tag/firmware), We will assume that the firmware.tar.gz is in /storage/emulated/0/Download or in download folder in internal storage 
 
 Run this command 
 ```
@@ -234,9 +227,13 @@ Grab:
 
 - dtb-tianma-6.10.0-rc5+ ```If you are Tianma panel```
 
+From [this link](https://github.com/gixousiyq/POCO-X3-Pro-Mainline-Guides/releases/tag/kernel)
+
+And grab 
+
 - modules.tar.gz
 
-From [this link](#)
+from [this link](https://github.com/gixousiyq/POCO-X3-Pro-Mainline-Guides/releases/tag/modules)
 
 Once again we will assume they are in /storage/emulated/0/Download
 
