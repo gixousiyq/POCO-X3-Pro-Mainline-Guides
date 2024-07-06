@@ -130,7 +130,7 @@ Now replace "vayu" bellow with the username you want, If you are unsure what use
 ```sh
 export USER=vayu 
 ```
-Now run this to create the user you entered its name, Just paste this in termux and you are good to go
+Now run this to create the user you entered its name, Just paste this in termux. Then it will ask you to enter a password, It seems that typing in there doesn't do anything but in reality it does but it's just hidden.
 ```sh
 groupadd storage
 groupadd wheel
