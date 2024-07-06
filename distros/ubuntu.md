@@ -75,7 +75,7 @@ su -c mkdir /data/local/ubuntu
 
 Now we will download the script that will lets us enter chroot
 ```sh
-wget https://github.com/gixousiyq/POCO-X3-Pro-Mainline-Guides/releases/download/chroot-scripts/ch -O ../usr/bin/ch && chmod +x ../usr/bin/ch
+wget https://github.com/gixousiyq/POCO-X3-Pro-Mainline-Guides/releases/download/chroot-scripts/ch -O $PREFIX/bin/ch && chmod +x $PREFIX/bin/ch
 ```
 
 And now run this anywhere in termux
@@ -90,9 +90,9 @@ And you are now inside the Ubuntu system! But we are not finished yet, There's s
 
 - apt cannot resolve host
 ```sh
-echo "nameserver 8.8.8.8" /etc/resolv.conf
+echo "nameserver 8.8.8.8" > /etc/resolv.conf
 echo "127.0.0.1 localhost
-127.0.0.1 xiaomi-vayu" /etc/hosts
+127.0.0.1 xiaomi-vayu" > /etc/hosts
 ```
 - Download is performed unsandboxed as root
 ```sh
@@ -106,7 +106,7 @@ Run these now! Not when the errors shows up.
 
 Now we will tell the system our machine name
 ```sh
-echo "xiaomi-vayu" /etc/hostname
+echo "xiaomi-vayu" > /etc/hostname
 ```
 
 Now you can install packages and update the system
@@ -172,7 +172,7 @@ We will now install the desktop that we will use everytime we boot Ubuntu, So pi
 
 Run this command to install Ubuntu desktop (default Ubuntu distribution desktop)
 ```sh
-apt install -y ubuntu-desktop
+sudo apt install -y ubuntu-desktop
 ```
 You can also replace ubuntu-desktop with:
 - ubuntu-desktop-minimal
@@ -244,12 +244,12 @@ sudo mv /sdcard/Download/*-6.10.0-rc5+ /boot/EFI
 If you are Huaxing run this command
 ```sh
 cd /boot/EFI
-mv dtb-huaxing-6.10.0-rc5+ dtb-6.10.0-rc5+
+sudo mv dtb-huaxing-6.10.0-rc5+ dtb-6.10.0-rc5+
 ```
 If you are Tianma run this command
 ```sh
 cd /boot/EFI
-mv dtb-Tianma-6.10.0-rc5+ dtb-6.10.0-rc5+
+sudo mv dtb-Tianma-6.10.0-rc5+ dtb-6.10.0-rc5+
 ```
 And this to unpack modules, The kernel probably won't boot without them!!!
 ```sh
@@ -266,7 +266,7 @@ To generate it run this command
 cd /boot/EFI
 sudo mkinitramfs -o initrd.img-6.10.0-rc5+ 6.10.0-rc5+
 ```
-If you see ```Possible missing firmware``` or ```/dev/disk/by-partlabel/ubuntu doesn't exist``` They are safe to ignore.
+If you see ```Possible missing firmware``` or ```/dev/disk/by-partlabel/ubuntu doesn't exist``` or ```cannot check for zstd compression support``` or ```root device does not exist```  They are safe to ignore.
 
 
 Now we are basically done! We have successfully built our Ubuntu system with its kernel and userspace, But always remember; The kernel cant boot itself, So now we will set up a UEFI or a bootloader that will allow us to boot our system, And even dualboot with android!

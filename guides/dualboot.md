@@ -22,7 +22,7 @@ If you are already in chroot and you do see a "root@localhost" or a "youruser@lo
 
 Install the config
 ```sh
-wget https://github.com/gixousiyq/POCO-X3-Pro-Mainline-Guides/releases/download/edk2-config/simpleinit.uefi.cfg | sudo tee /boot/simpleinit/simpleinit.uefi.cfg
+sudo wget https://github.com/gixousiyq/POCO-X3-Pro-Mainline-Guides/releases/download/edk2-config/simpleinit.uefi.cfg -O /boot/simpleinit/simpleinit.uefi.cfg
 ```
 
 ### Flash edk2-msm UEFI
