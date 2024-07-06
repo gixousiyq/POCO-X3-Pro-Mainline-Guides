@@ -126,9 +126,9 @@ apt install u-boot-tools- nano net-tools sudo git bash-completion ssh rmtfs prot
 ### Creating a user
 We will now make a user that will carry your username in Ubuntu 
 
-Now enter the username you want, If you are unsure what username you want you can leave it as is, It does **NOT** need to be lowercase by the way; Make sure to memorize it or write it somewhere if you can't remember it because we will need it later
+Now replace "vayu" bellow with the username you want, If you are unsure what username you want you can leave it as is, It does **NOT** need to be lowercase by the way; Make sure to memorize it or write it somewhere if you can't remember it because we will need it later
 ```sh
-export USER=vayu
+export USER=vayu 
 ```
 Now run this to create the user you entered its name, Just paste this in termux and you are good to go
 ```sh
