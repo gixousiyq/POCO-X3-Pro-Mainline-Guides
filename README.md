@@ -19,13 +19,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Project Status](/status.md)
 
-- [FAQ](#)
-
-## Misc. useful stuff
-
-- [Mounting Mainline in android](#)
-
-- [Chrooting into Mainline](#)
+- [Troubleshooting](/troubleshooting.md)
 
 ## Contributors
 [<img alt="adomerlee" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/109386069?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/adomerlee)
