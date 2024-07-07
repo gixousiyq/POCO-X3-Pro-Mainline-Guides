@@ -2,10 +2,11 @@
 
 ## Troubleshooting
 
-### Mount failed with I/O error when chrooting
+### Mount failed when chrooting
 
 Run this to fix the filesystem
 ```sh
+apt install e2fsprogs
 sudo fsck.ext4 -f -y /dev/block/by-name/ubuntu
 ```
 
