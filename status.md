@@ -11,52 +11,42 @@ Current mainline kernel version is 6.10.0-rc5
 - [x] CPU
 - [x] UFS
 - [x] USB
-- [x] GPU ```[1]```
-- [x] WiFi ```[1]```
-- [ ] Touchscreen ```[5]```
-- [ ] Bluetooth ```[5]```
-- [ ] Battery Percentage ```[3]```
-- [ ] Brightness control ```[2]```
-- [x] Sdcard ```Should be working, Untested```
-- [ ] Charging ```[3]```
-- [ ] Flashlight ```[2]```
-- [ ] Fingerprint ```[6]```
-- [ ] LTE ```[4]```
-- [ ] SMS ```[4]```
-- [ ] Calls ```[4]```
-- [ ] Camera ```[6]```
-- [ ] Microphone's ```[4]```
+- [x] GPU
+- [x] WiFi
+- [ ] Touchscreen
+- [ ] Bluetooth
+- [ ] Battery Percentage
+- [ ] Brightness control
+- [x] Sdcard
+- [ ] Charging
+- [ ] Flashlight
+- [ ] Fingerprint
+- [ ] LTE
+- [ ] SMS
+- [ ] Calls
+- [ ] Camera
+- [ ] Microphone's
+- [ ] NFC
 
 #### Audio
-- [ ] Bottom speaker ```[2]```
-- [ ] Upper speaker ```[2]```
-- [ ] tas256x chip ```[4]```
-- [ ] 3.5mm ```[4]```
+- [ ] Bottom speaker
+- [ ] Upper speaker
+- [ ] 3.5mm
 
 #### Sensors
-- [ ] Light sensor ```[4]```
-- [ ] Accelerometer ```[4]```
-- [ ] Gyroscope ```[4]```
-- [ ] Proximity ```[4]```
-- [ ] Magnetometer ```[4]```
-- [ ] GPS ```[4]```
+- [ ] Light sensor
+- [ ] Accelerometer
+- [ ] Gyroscope
+- [ ] Proximity
+- [ ] Magnetometer
+- [ ] GPS
 
-## Statuses
-[1]: Needs firmware 
-
-[2]: Not decleared in device tree
-
-[3]: Not decleared in device tree + No driver yet
-
-[4]: Needs firmware + Not decleared in device tree yet
-
-[5]: Needs firmware + driver is broken
-
-[6]: Needs firmware + Not decleared yet in device tree + No driver yet
+>[!WARNING]
+> WiFi and GPU do not work without firmware!!!
 
 
 ## Known issue's 
-- On boot on huaxing panel, The screen becomes gray-blue for a couple of seconds then functions normally; No damage was noticed on the panel, Will try to fix it asap.
+- On boot, The screen becomes gray-blue for a couple of seconds then functions normally; No damage was noticed on the panel.
 - Bluetooth is decleared and theres a button to enable it in the system, But the driver stall's when trying to power on.
 
 ## Notes
