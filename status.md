@@ -13,7 +13,7 @@ Current mainline kernel version is 6.10.0-rc5
 - [x] USB
 - [x] GPU
 - [x] WiFi
-- [ ] Touchscreen
+- [x] Touchscreen
 - [ ] Bluetooth
 - [x] Battery Percentage
 - [ ] Brightness control
