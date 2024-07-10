@@ -42,7 +42,7 @@ Current mainline kernel version is 6.10.0-rc5
 - [ ] GPS
 
 >[!WARNING]
-> WiFi and GPU do not work without firmware!!!
+> WiFi and GPU and Touchscreen do not work without firmware!!!
 
 
 ## Known issue's 
