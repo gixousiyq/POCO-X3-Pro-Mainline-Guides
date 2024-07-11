@@ -27,6 +27,7 @@ Current mainline kernel version is 6.10.0-rc5
 - [ ] Camera
 - [ ] Microphone's
 - [ ] NFC
+- [ ] Vibration motor
 
 #### Audio
 - [ ] Bottom speaker
