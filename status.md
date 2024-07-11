@@ -16,7 +16,7 @@ Current mainline kernel version is 6.10.0-rc5
 - [x] Touchscreen
 - [ ] Bluetooth
 - [x] Battery Percentage
-- [ ] Brightness control
+- [x] Brightness control
 - [x] Sdcard
 - [x] Charging ```Works with everything other than xiaomi original charger, DEAD SLOW```
 - [ ] Sleep
