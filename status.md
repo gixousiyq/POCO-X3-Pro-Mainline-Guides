@@ -20,7 +20,7 @@ Current mainline kernel version is 6.10.0-rc5
 - [x] Sdcard
 - [x] Charging ```Works with everything other than xiaomi original charger, DEAD SLOW```
 - [ ] Sleep
-- [ ] Flashlight
+- [x] Flashlight ```Needs to be enabled from the terminal, Thanks Ubuntu```
 - [ ] Fingerprint
 - [ ] LTE
 - [ ] SMS
