@@ -172,17 +172,17 @@ We will now install the desktop that we will use everytime we boot Ubuntu, So pi
 
 Run this command to install Ubuntu desktop (default Ubuntu distribution desktop)
 ```sh
-sudo apt install -y ubuntu-desktop
+sudo apt install -y ubuntu-desktop-minimal
 ```
 You can also replace ubuntu-desktop with:
-- ubuntu-desktop-minimal
+- ubuntu-desktop ```Full of bloatware, Heats the system on idle```
 
 - kubuntu-desktop ```KDE plasma```
 
 - xfce4
 And many more
 
-But only "ubuntu-desktop" had been tested so far
+But only "ubuntu-desktop-minimal" and "ubuntu-desktop" had been tested so far
 
 ### Create fstab
 fstab file is mandatory in Linux systems; It tell's the operating system what to mount and where, Without it the system wont boot.
