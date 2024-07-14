@@ -14,11 +14,11 @@ Current mainline kernel version is 6.10.0-rc5
 - [x] GPU
 - [x] WiFi
 - [x] Touchscreen
-- [ ] Bluetooth
+- [x] Bluetooth
 - [x] Battery Percentage
 - [x] Brightness control
 - [x] Sdcard
-- [x] Charging ```Works with everything other than xiaomi original charger, DEAD SLOW```
+- [ ] Charging ```WIP```
 - [ ] Sleep
 - [x] Flashlight ```Needs to be enabled from the terminal, Thanks Ubuntu```
 - [ ] Fingerprint
@@ -44,14 +44,9 @@ Current mainline kernel version is 6.10.0-rc5
 - [ ] GPS
 
 >[!WARNING]
-> WiFi and GPU and Touchscreen do not work without firmware!!!
+> WiFi and GPU and Touchscreen and Bluetooth do not work without firmware!!!
 
 
 ## Known issue's 
 - On boot, The screen becomes gray-blue for a couple of seconds then functions normally; No damage was noticed on the panel.
-- Bluetooth is decleared and theres a button to enable it in the system, But the driver stall's when trying to power on.
 
-## Notes
-- If you see the log on the boot or shutdown being stock for a long time, Simply force reboot by long pressing the power button 
-- The brightness on Mainline is the same as the last brightness set on android.
-- USB Host works flawlessly and it switches automatically 
