@@ -14,11 +14,11 @@ Current mainline kernel version is 6.10.0-rc5
 - [x] GPU
 - [x] WiFi
 - [x] Touchscreen
-- [x] Bluetooth
+- [x] Bluetooth ```Extremely unstable```
 - [x] Battery Percentage
 - [x] Brightness control
 - [x] Sdcard
-- [ ] Charging ```WIP```
+- [x] Charging ```7w```
 - [ ] Sleep
 - [x] Flashlight ```Needs to be enabled from the terminal, Thanks Ubuntu```
 - [ ] Fingerprint
