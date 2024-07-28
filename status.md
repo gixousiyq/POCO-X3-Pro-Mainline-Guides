@@ -9,7 +9,7 @@ Current mainline kernel version is 6.10.0-rc5
 #### General
 - [x] Display 
 - [x] CPU
-- [x] UFS
+- [x] UFS ```Doesn't work with some 128GB models```
 - [x] USB
 - [x] GPU
 - [x] WiFi
