@@ -13,7 +13,7 @@ Current mainline kernel version is 6.10.0-rc5
 - [x] USB
 - [x] GPU
 - [x] WiFi
-- [x] Touchscreen
+- [x] Touchscreen ```Dies after sleep/suspend```
 - [x] Bluetooth ```Extremely unstable```
 - [x] Battery Percentage
 - [x] Brightness control
