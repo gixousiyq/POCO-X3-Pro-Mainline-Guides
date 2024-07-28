@@ -190,8 +190,8 @@ fstab file is mandatory in Linux systems; It tell's the operating system what to
 To create it run the command bellow
 ```sh
 echo "PARTLABEL=ubuntu / ext4 errors=remount-ro,x-systemd.growfs 0 1
-PARTLABEL=esp /boot/EFI vfat umask=0077 0 1
-PARTLABEL=logfs /boot/simpleinit vfat umask=0077 0 1" | sudo tee /etc/fstab
+PARTLABEL=esp /boot vfat umask=0077 0 1
+PARTLABEL=logfs /simpleinit vfat umask=0077 0 1" | sudo tee /etc/fstab
 ```
 
 ### Install firmware
