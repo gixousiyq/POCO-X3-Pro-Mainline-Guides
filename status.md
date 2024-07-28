@@ -18,7 +18,7 @@ Current mainline kernel version is 6.10.0-rc5
 - [x] Battery Percentage
 - [x] Brightness control
 - [x] Sdcard
-- [x] Charging ```7w```
+- [x] Charging ```7w, not work all charger```
 - [ ] Sleep
 - [x] Flashlight ```Needs to be enabled from the terminal, Thanks Ubuntu```
 - [ ] Fingerprint
