@@ -243,12 +243,12 @@ sudo mv /sdcard/Download/*-6.10.0-rc5+ /boot
 ```
 If you are Huaxing run this command
 ```sh
-cd /boot
+cd /boot/EFI
 sudo mv dtb-huaxing-6.10.0-rc5+ dtb-6.10.0-rc5+
 ```
 If you are Tianma run this command
 ```sh
-cd /boot
+cd /boot/EFI
 sudo mv dtb-Tianma-6.10.0-rc5+ dtb-6.10.0-rc5+
 ```
 And this to unpack modules, The kernel probably won't boot without them!!!
@@ -263,7 +263,7 @@ initrd.img or Initialisation Ram Disk is a piece of software that the bootloader
 
 To generate it run this command
 ```sh
-cd /boot
+cd /boot/EFI
 sudo mkinitramfs -o initrd.img-6.10.0-rc5+ 6.10.0-rc5+
 ```
 If you see ```Possible missing firmware``` or ```/dev/disk/by-partlabel/ubuntu doesn't exist``` or ```cannot check for zstd compression support``` or ```root device does not exist```  They are safe to ignore.
