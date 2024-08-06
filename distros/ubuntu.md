@@ -249,7 +249,7 @@ sudo mv dtb-huaxing-6.10.0-rc5+ dtb-6.10.0-rc5+
 If you are Tianma run this command
 ```sh
 cd /boot/EFI
-sudo mv dtb-Tianma-6.10.0-rc5+ dtb-6.10.0-rc5+
+sudo mv dtb-tianma-6.10.0-rc5+ dtb-6.10.0-rc5+
 ```
 And this to unpack modules, The kernel probably won't boot without them!!!
 ```sh
