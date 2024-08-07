@@ -239,7 +239,7 @@ Once again we will assume they are in /storage/emulated/0/Download
 
 Run this command to move them to the correct place
 ```sh
-sudo mv /sdcard/Download/*-6.10.0-rc5+ /boot
+sudo mv /sdcard/Download/*-6.10.0-rc5+ /boot/EFI
 ```
 If you are Huaxing run this command
 ```sh
